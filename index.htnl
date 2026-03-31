@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atividade DOM</title>
+</head>
+
+<body>
+
+<h2>Contador de Cliques</h2>
+
+<button id="aumentar">+</button>
+<button id="diminuir">-</button>
+
+<p>Contador: <span id="contador">0</span></p>
+
+<h2>Adicionar Texto</h2>
+
+<input type="text" id="campoTexto" placeholder="Digite algo e pressione Enter">
+
+<p>Caracteres (sem espaço): <span id="contadorCaracteres">0</span></p>
+
+<div id="mensagens"></div>
+
+<h2>Adicionar Lista</h2>
+
+<select id="tipoLista">
+<option value="ul">Lista não ordenada</option>
+<option value="ol">Lista ordenada</option>
+</select>
+
+<button id="criarLista">Adicionar Lista</button>
+
+<div id="listas"></div>
+
+<h2>Reset</h2>
+
+<button id="resetar">Resetar Tudo</button>
+
+<script src="Script.js"></script>
+</body>
+</html>
